@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+}
+@font-face {
+    font-family: "open";
+    src: url(fonte/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "robotoB";
+    src: url(fonte/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "robotoR";
+    src: url(fonte/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "poppinsB";
+    src: url(fonte/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "poppinsR";
+    src: url(fonte/Poppins-Regular.ttf);
+}
+.azul{
+    background-color: #106EEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.azul a {
+    color: white;
+    font-family: "open";
+    font-size: 20px;
+}
+h1{
+    font-family: "poppinsB";
+    font-size: 50PX;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+.header a{
+    font-family: "open";
+    color: black;
+}
+header nav{
+    display: flex;
+    justify-content:space-between;
+    width: 700px;
+}
+.inicio{
+    background-image: url(img/fundo.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.inicio h1{
+    font-size: 70px;
+}
+.inicio h4{
+    font-family: "poppinsR";
+    font-size: 50px;
+    font-weight: 300;
+}
+.inicio div{
+    text-align: center;
+}
